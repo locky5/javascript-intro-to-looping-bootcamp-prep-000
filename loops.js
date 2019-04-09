@@ -22,9 +22,17 @@ function doWhileLoop(num) {
   
   function incrementVariable() {
   i = i + 1;
+<<<<<<< HEAD
   return i;
   }
   do {
     console.log("I run once regardless."); //console logs once always
+=======
+  }
+  
+  do {
+    incrementVariable();
+    console.log("I run once regardless.");
+>>>>>>> 7f9809172dfbedda51ba4c0b234e8773cc664a6c
   } while (incrementVariable() < num);
 }
